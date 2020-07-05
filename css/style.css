@@ -1,0 +1,88 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.card {
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: block;
+  margin: 0 15px 55px;
+  width: 170px;
+  min-height: 260px;
+  border: solid 1px #b5b5b5;
+  border-radius: 10px;
+  background: #fff;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card-info {
+  padding: 10px 16px;
+}
+
+.card-figure {
+  position: relative;
+  overflow: hidden;
+  height: 134px;
+  background: #ddd;
+}
+
+.btn {
+  padding: .4em .1em;
+  border-radius: 6px;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  background: #00c1ff;
+  border: none;
+  width: 100%;
+}
+
+/* Form */
+
+form>select {
+  padding: .3em .5em;
+  height: 2.3em;
+  background-color: #fff;
+  border: 1px solid #706f6f;
+}
+
+form>#search {
+  padding: .3em .5em;
+  height: 2.3em;
+  background-color: #fff;
+  border: 1px solid #706f6f;
+}
+
+/* Модификаторы */
+
+.hidden {
+  display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+.red {
+  background-color: red;
+}
